@@ -4,9 +4,11 @@ author: "Elijah Meyer"
 format: pdf
 ---
 
-## Packages for class
+###### Packages for class
 
-Note: You can run code in a few different ways. You can click the green arrow in the code chunk; use a keyboard short cut (Ctrl+Enter for PC; Cmd+Return for Mac). For a list of other keyboard shortcuts, please visit the following: https://support.posit.co/hc/en-us/articles/200711853-Keyboard-Shortcuts-in-the-RStudio-IDE
+**Note:** You can run code in a few different ways. You can click the green arrow in the code chunk; use a keyboard short cut (Ctrl+Enter for PC; Cmd+Return for Mac). For a list of other keyboard shortcuts, please visit the following: https://support.posit.co/hc/en-us/articles/200711853-Keyboard-Shortcuts-in-the-RStudio-IDE
+
+library(tidyverse)
 
 ```{r}
 library(tidyverse)
@@ -14,19 +16,19 @@ library(tidyverse)
 
 ## Quarto is great
 
-Quarto enables you to weave together content and executable code into a finished
-document. To learn more about Quarto see <https://quarto.org>.
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
 ## mtcars
 
 For the remainder of the class, we will use the `mtcars` data set.
 
--   Take a glimpse of the data set using the `glimpse` function in R. 
-Let's also label our code chunk!
+-   Take a glimpse of the data set using the `glimpse` function in R. Let's also label our code chunk!
 
 ```{r}
 
-glimpse(mtcars)
+glimpse(mtcars) # this is text
+
+# Glimpse is a function that does...
 
 ```
 
@@ -34,12 +36,11 @@ glimpse(mtcars)
 
 **Add answer here**
 
-
 **It's a good habit to `commit` and `push` after you answer questions. Let's demo this now!**
 
--   Use `?` before the function name to get more information about the function in R. Type this in the console. Click on `Get a glimpse of your data` in the help window. 
+-   Use `?` before the function name to get more information about the function in R. Type this in the console. Click on `Get a glimpse of your data` in the help window.
 
--   Now, let's introduce what a pipe operator is. Below, pipe the data set into the function glimpse, to obtain the same results as above. 
+-   Now, let's introduce what a pipe operator is. Below, pipe the data set into the function glimpse, to obtain the same results as above.
 
 ```{r}
 #| label: pipe
@@ -47,9 +48,6 @@ glimpse(mtcars)
 #insert code here
 
 ```
-
-
-
 
 -   **Demo Together**: Now, let's run `?filter` in the console. Next, filter out the any cars who weigh more than 4000 lbs.
 
@@ -84,18 +82,15 @@ Now, filter these data so that is displays only cars that weigh less than 4000 l
 
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. Note: if something is wrong with your code, your document will not render.
 
-
-
 # If Time
 
-## Data Visualization 
+## Data Visualization
 
-Using the `mtcars` data set, we are going to create your first visualizations in R. 
+Using the `mtcars` data set, we are going to create your first visualizations in R.
 
--   What types of plots could we make with the variable `mpg`? 
+-   What types of plots could we make with the variable `mpg`?
 
 **Add answer here**
-
 
 ```{r}
 #| label: boxplot
@@ -105,12 +100,6 @@ Using the `mtcars` data set, we are going to create your first visualizations in
 ```{r}
 #| label: histogram
 ```
-
-
-
-
-
-
 
 ## Optional
 

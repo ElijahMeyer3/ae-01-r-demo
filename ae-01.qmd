@@ -8,7 +8,6 @@ format: pdf
 
 **Note:** You can run code in a few different ways. You can click the green arrow in the code chunk; use a keyboard short cut (Ctrl+Enter for PC; Cmd+Return for Mac). For a list of other keyboard shortcuts, please visit the following: https://support.posit.co/hc/en-us/articles/200711853-Keyboard-Shortcuts-in-the-RStudio-IDE
 
-library(tidyverse)
 
 ```{r}
 library(tidyverse)

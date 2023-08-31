@@ -1,6 +1,6 @@
 ---
 title: "Quarto & R Demo"
-author: "Elijah Meyer"
+author: "[Insert Name]"
 format: pdf
 ---
 
